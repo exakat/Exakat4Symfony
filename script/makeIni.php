@@ -56,7 +56,7 @@ foreach($previous as $section => $values) {
 }
 
 $iniFile = implode(PHP_EOL, $ini);
-file_put_contents('analyzers.ini', $iniFile);
+file_put_contents('Analyzer/analyzers.ini', $iniFile);
 
 print count($ini)." configurations were written\n";
 
